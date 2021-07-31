@@ -1,0 +1,74 @@
+.comment-card{
+    border-radius: 8px;
+    border: 1px solid #c3c3c3;
+    box-shadow: 0 2px 7px 0 rgba(0,0,0,0.15);
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    width: 700px;
+}
+.comment-card__info{
+    width: 100%;
+}
+.comment-card__header{
+    display: flex;
+    align-items: center;
+}
+.comment-card__image{
+   max-width: 80px;
+   height: 80px;
+   margin-right: 20px;
+   border-radius: 100%;
+}
+
+.comment-card__title{
+    font-size: 26px;
+    color: #2c3e50;
+}
+
+.comment-card__date{
+    font-size: 16px;
+    color: #3498D8;
+}
+
+.comment-card__footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.comment-card__comment{
+    color: #95A5A6;
+    font-weight: 700;
+    margin-bottom: 15px;
+   
+}
+.comment-card__likes-and-comment{
+    display: flex;
+    justify-content: space-between;    
+}
+.comment-card__like-count{
+    color: #3498D8;
+}
+
+.comment-card__comments-count{
+    color: #3498D8;
+    margin-right: 15px;
+}
+
+.comment-card__link{
+    border: 1px solid #3498D8;
+    border-radius: 20px;
+    color: #3498D8;
+    padding: 8px 10px;
+    width: 150px;
+    margin-top: 10px;
+    background-color: rgb(236, 230, 230);
+    cursor: pointer;
+}
+
+.comment-card__link:hover {
+    box-shadow: 0 3px 0 rgba(0, 0, 0, .3),
+    0 2px 7px rgba(0, 0, 0, 0.2); 
+   
+}

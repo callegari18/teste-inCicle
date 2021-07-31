@@ -1,5 +1,5 @@
 import React from 'react';
-import PromotionCard from 'components/Promotion/Card/Card';
+import PromotionCard from 'components/RedeSocial/Card/Card';
 // import './App.css';
 
 function App() {

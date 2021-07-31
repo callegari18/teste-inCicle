@@ -4,16 +4,14 @@ import {
     Switch,
     Route,
 } from "react-router-dom";
-import PagesPromotionSearch from './Promotion/Search/Search';
-import PagesPromotionForm from './Promotion/Form/Form';
+import PagesRedeSocialPainel from './RedeSocial/Painel/Painel';
+
 
 const Root = () => {
     return(
         <Router>
             <Switch>
-                <Route path="/create" component={PagesPromotionForm} />
-                <Route path="/edit/:id" component={PagesPromotionForm} />
-                <Route path="/" component={PagesPromotionSearch} />
+                <Route path="/" component={PagesRedeSocialPainel} />
             </Switch>
         </Router>
     )
